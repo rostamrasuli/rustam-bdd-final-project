@@ -24,6 +24,7 @@ public abstract class BaseSetup {
 
     public BaseSetup() {
 
+
         try {
             String configFilePath = System.getProperty("user.dir") + "/src/test/resources/configs/dev-config.properties";
             LOGGER.info("Reading Config file {}", configFilePath);
